@@ -1,6 +1,7 @@
 import Freecurrencyapi from '@everapi/freecurrencyapi-js';
 
 const freecurrencyapi = new Freecurrencyapi('fca_live_jdaPyK9RSXGtRn6Mb9SIepwJL6mCcyRUvtR5AbHO');
+// currency converter fromOne to another....
 
 export async function calculatecurrency(fromcurrency,tocurrency,unit){
 
